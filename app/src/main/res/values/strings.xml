@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyViewPager</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="page_number">Page numéro</string>
+    <string name="frag_num_text">onCreateView called for fragment number</string>
+    <string name="nous_pourrions_afficher_un_fil_d_actualit_ici_non">Nous pourrions afficher un fil d\'actualité ici non ?</string>
+    <string name="pageNewsString">Nous pourrions afficher un fil d\'actualité ici non ?</string>
+</resources>

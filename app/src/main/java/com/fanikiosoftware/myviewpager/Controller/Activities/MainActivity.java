@@ -24,13 +24,13 @@ public class MainActivity extends AppCompatActivity {
         // 1 - Get ViewPager from layout
         ViewPager pager = findViewById(R.id.activity_main_viewpager);
         // 2 - Set Adapter PageAdapter and glue it together
-        pager.setAdapter(new PageAdapter(getSupportFragmentManager(), getResources().getIntArray(R.array.colorPagesViewPager)) {
-        });
+        pager.setAdapter(new PageAdapter(getSupportFragmentManager()));
 //      get the TabLayout from the layout_main
         TabLayout tabs = findViewById(R.id.activity_main_tabs);
 //      attach TabLayout and ViewPager
         tabs.setupWithViewPager(pager);
 //      for the purpose of design, tabs have the same width
         tabs.setTabMode(TabLayout.MODE_FIXED);
+        //Set Adapter PageAdapter and glue it together
     }
 }
